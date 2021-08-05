@@ -1,35 +1,32 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
+  background-color: powderblue;
 }
 
 h1, h2{
-  margin:auto;
-  width:50%;
-  height:auto;
-  display:block;
+  vertical-align:top;
+  display:inline-block;
+  text-align: justify;
+  background-color: powderblue;
 }
 
 img{
-  width: 250px;
-  height: 250px;
-  background-color: palegoldenrod;
+  width: 100px;
+  height: 100px;
 }
 
-.columnleft{
-  float:left;
-  border:10px solid black;
-  background-color:blanchedalmond
+.caption{
+  display:block;
 }
 
-.columnright{
-  float:right;
-  border: 10px solid black;
-  background-color: darkgrey;
-}
 
-.columncenter{
-  display: block;
-  margin: auto;
-  border:10px solid black;
-  background-color: orange;
+.animal{
+  float: left;
+  width:20%;
+  border: solid black;
+  border-width: 1px;
+  margin: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
 }
